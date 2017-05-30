@@ -17,6 +17,10 @@ public class OutputTest {
         assertThat(output.welcomeMessage(), is("***** Hello!! Welcome to Biblioteca *****"));
     }
 
+    @Test
+    public void shouldReturnListingOption(){
+        assertThat(output.menuOptions().get(0), is("1. List all books"));
+    }
 
 
 }
