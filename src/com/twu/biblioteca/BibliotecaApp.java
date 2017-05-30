@@ -15,8 +15,8 @@ public class BibliotecaApp {
         Output output = new Output();
         Library library = new Library(mockLibraryBooks());
 
-        System.out.println("See all books we have here !!");
         System.out.println(output.welcomeMessage());
+        System.out.println("\nSee all books we have here !!");
         for (Book book: library.getBooks()) {
             System.out.println(book.name);
         };
@@ -24,11 +24,11 @@ public class BibliotecaApp {
     }
 
     public static ArrayList<Book> mockLibraryBooks(){
-        ArrayList<Book> allBooks = new ArrayList<Book>();
-        allBooks.add(new Book("Livro 1"));
-        allBooks.add(new Book("Livro 2"));
-        allBooks.add(new Book("Livro 3"));
-        return allBooks;
+        ArrayList<Book> books = new ArrayList<Book>();
+        books.add(new Book("Livro 1", "Author X1", "Year 2001"));
+        books.add(new Book("Livro 2", "Author X2", "Year 2002"));
+        books.add(new Book("Livro 3", "Author X3", "Year 2003"));
+        return books;
     }
     
     

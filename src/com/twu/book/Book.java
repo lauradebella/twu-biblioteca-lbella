@@ -6,8 +6,12 @@ package com.twu.book;
 public class Book {
 
     public String name;
+    public String author;
+    public String yearPublish;
 
-    public Book(String name) {
+    public Book(String name, String author, String yearPublish) {
         this.name = name;
+        this.author = author;
+        this.yearPublish = yearPublish;
     }
 }

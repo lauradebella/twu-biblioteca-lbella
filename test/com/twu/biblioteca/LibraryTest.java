@@ -16,9 +16,9 @@ public class LibraryTest {
     @Test
     public void shouldReturnABooksListWith3Elements(){
         ArrayList<Book> books = new ArrayList<Book>();
-        books.add(new Book("Livro 1"));
-        books.add(new Book("Livro 2"));
-        books.add(new Book("Livro 3"));
+        books.add(new Book("Livro 1", "Author X1", "Year 2001"));
+        books.add(new Book("Livro 2", "Author X2", "Year 2002"));
+        books.add(new Book("Livro 3", "Author X3", "Year 2003"));
         Library library = new Library(books);
 
         assertThat(library.getBooks().size(), is(3));
