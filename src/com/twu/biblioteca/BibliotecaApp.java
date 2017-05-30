@@ -18,7 +18,8 @@ public class BibliotecaApp {
         System.out.println(output.welcomeMessage());
         System.out.println("\nSee all books we have here !!");
         for (Book book: library.getBooks()) {
-            System.out.println(book.name);
+            System.out.printf("%-15s %-15s %-10s\n", book.name, book.author, book.yearPublished);
+            //System.out.println(book.name);
         };
 
     }

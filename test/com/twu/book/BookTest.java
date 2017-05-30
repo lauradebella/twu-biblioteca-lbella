@@ -12,19 +12,19 @@ public class BookTest {
 
     @Test
     public void shouldVerifyName(){
-        Book book = new Book("Name", "Author", "Year Publish");
+        Book book = new Book("Name", "Author", "Year Published");
         assertThat(book.name, is("Name"));
     }
 
     @Test
     public void shouldVerifyAuthor(){
-        Book book = new Book("Name", "Author", "Year Publish");
+        Book book = new Book("Name", "Author", "Year Published");
         assertThat(book.author, is("Author"));
     }
 
     @Test
     public void shouldVerifyYearPublish(){
-        Book book = new Book("Name", "Author", "Year Publish");
-        assertThat(book.yearPublish, is("Year Publish"));
+        Book book = new Book("Name", "Author", "Year Published");
+        assertThat(book.yearPublished, is("Year Published"));
     }
 }

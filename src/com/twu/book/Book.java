@@ -7,11 +7,11 @@ public class Book {
 
     public String name;
     public String author;
-    public String yearPublish;
+    public String yearPublished;
 
     public Book(String name, String author, String yearPublish) {
         this.name = name;
         this.author = author;
-        this.yearPublish = yearPublish;
+        this.yearPublished = yearPublish;
     }
 }
