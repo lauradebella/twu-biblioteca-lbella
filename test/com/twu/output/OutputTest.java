@@ -10,9 +10,10 @@ import static org.junit.Assert.*;
  */
 public class OutputTest {
 
+    Output output = new Output();
+
     @Test
     public void shouldReturnWelcomeMessage(){
-        Output output = new Output();
         assertThat(output.welcomeMessage(), is("***** Hello!! Welcome to Biblioteca *****"));
     }
 

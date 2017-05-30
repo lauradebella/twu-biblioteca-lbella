@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496245f5-7970-4261-be63-0d7830e3c5dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/output/OutputTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/output/OutputTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu/output/OutputTest.java" afterPath="$PROJECT_DIR$/test/com/twu/output/OutputTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +73,8 @@
       <file leaf-file-name="OutputTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/output/OutputTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +105,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/twu/book/Book.java" />
         <option value="$PROJECT_DIR$/test/com/twu/book/BookTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/output/OutputTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/output/Output.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/output/OutputTest.java" />
       </list>
     </option>
   </component>
@@ -279,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OutputTest">
+  <component name="RunManager" selected="JUnit.OutputTest.shouldReturnWelcomeMessage">
     <configuration default="false" name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -314,6 +315,32 @@
       <option name="MAIN_CLASS_NAME" value="com.twu.output.OutputTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OutputTest.shouldReturnWelcomeMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.output" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.output.OutputTest" />
+      <option name="METHOD_NAME" value="shouldReturnWelcomeMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -530,14 +557,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.OutputTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OutputTest.shouldReturnWelcomeMessage" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OutputTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OutputTest.shouldReturnWelcomeMessage" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OutputTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BibliotecaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -560,6 +589,9 @@
     </history-entry>
     <history-entry file="OutputTest - 2017.05.30 at 14h 52m 22s.xml">
       <configuration name="OutputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OutputTest_shouldReturnWelcomeMessage - 2017.05.30 at 14h 54m 04s.xml">
+      <configuration name="OutputTest.shouldReturnWelcomeMessage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -653,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/output/OutputTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
