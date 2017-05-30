@@ -16,11 +16,7 @@ public class BibliotecaApp {
         Library library = new Library(mockLibraryBooks());
 
         System.out.println(output.welcomeMessage());
-        System.out.println("\nSee all books we have here !!");
-        for (Book book: library.getBooks()) {
-            System.out.printf("%-15s %-15s %-10s\n", book.name, book.author, book.yearPublished);
-            //System.out.println(book.name);
-        };
+        listBooks(library);
 
     }
 
@@ -30,6 +26,13 @@ public class BibliotecaApp {
         books.add(new Book("Livro 2", "Author X2", "Year 2002"));
         books.add(new Book("Livro 3", "Author X3", "Year 2003"));
         return books;
+    }
+
+    public static void listBooks(Library library){
+        System.out.println("\nSee all books we have here !!");
+        for (Book book: library.getBooks()) {
+            System.out.printf("%-15s %-15s %-10s\n", book.name, book.author, book.yearPublished);
+        };
     }
     
     
