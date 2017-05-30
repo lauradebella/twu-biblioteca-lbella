@@ -27,12 +27,6 @@ public class BibliotecaApp {
         return books;
     }
 
-    public static void listBooks(Library library){
-        System.out.println("\nSee all books we have here !!");
-        for (Book book: library.getBooks()) {
-            System.out.printf("%-15s %-15s %-10s\n", book.name, book.author, book.yearPublished);
-        };
-    }
 
     public static void mainMenu(Library library, Output output){
         System.out.println("\nSee your options:");
@@ -45,7 +39,7 @@ public class BibliotecaApp {
         int option = keyboard.nextInt();
 
         if(option == 1){
-            listBooks(library);
+            library.listBooks();
         }else{
             System.out.println("Opção inválida! ");
         }

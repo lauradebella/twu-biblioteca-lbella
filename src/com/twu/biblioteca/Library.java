@@ -19,4 +19,10 @@ public class Library {
         return books;
     }
 
+    public void listBooks() {
+        System.out.println("\nSee all books we have here !!");
+        for (Book book: this.getBooks()) {
+            System.out.printf("%-15s %-15s %-10s\n", book.name, book.author, book.yearPublished);
+        };
+    }
 }
